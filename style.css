@@ -1,3 +1,6 @@
+* {
+    list-style: none;
+}
 body {
     height: 100%;
     margin: 0;
@@ -206,7 +209,7 @@ a{
     display: flex;
     align-items: center;
     position: fixed;
-    bottom: 20px;
+    bottom: 200px;
     right: 20px;
     padding: 6px 14px;
     background-color: #2a2a2a;
@@ -221,4 +224,31 @@ a{
 .btn-setting span {
     font-size: 13px;
     color: #9aa0a6;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+.footer p {
+    padding: 20px 30px;
+    height: 20px;
+    margin: 0;
+    border: 1px solid #bbbbbb;
+    border-width: 0 0 1px;
+}
+.footer div {
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul {
+    display: flex;
+    padding: 0;
+}
+.footer ul li:first-child,
+.footer ul li:last-child {
+    padding: 0 30px;
 }
